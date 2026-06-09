@@ -49,10 +49,18 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="custName" class="form-label fw-semibold">Full Name</label>
+                        <label for="custName" class="form-label fw-semibold">Name</label>
                         <div class="input-group">
                             <input type="text" class="form-control" name="custName" 
                             placeholder = "e.g. Ali bin Ahmad" required>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="custName" class="form-label fw-semibold">Email</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="email" 
+                            placeholder = "e.g. aliahmad@gmail.com">
                         </div>
                     </div>
 
