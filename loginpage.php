@@ -35,7 +35,7 @@
       name = "signInButton" value = "Sign in" class="btn btn-primary btn-block mb-4">
       </div>
 
-        <p>Not a member? <a href="registerCustomer.php">Register</a></p>
+        <p>Don't have an account? <a href="register.php">Register</a></p>
     </form>
   </div>
 </div>
