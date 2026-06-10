@@ -49,10 +49,10 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="custName" class="form-label fw-semibold">Name</label>
+                        <label for="custName" class="form-label fw-semibold">Name*</label>
                         <div class="input-group">
                             <input type="text" class="form-control" name="custName" 
-                            placeholder = "e.g. Ali bin Ahmad" required>
+                            placeholder = "e.g. Michael Jackson" required>
                         </div>
                     </div>
 
@@ -60,7 +60,7 @@
                         <label for="custName" class="form-label fw-semibold">Email</label>
                         <div class="input-group">
                             <input type="text" class="form-control" name="email" 
-                            placeholder = "e.g. aliahmad@gmail.com">
+                            placeholder = "e.g. michael@gmail.com">
                         </div>
                     </div>
 
@@ -73,21 +73,31 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="username" class="form-label fw-semibold">Username</label>
+                        <label for="address" class="form-label fw-semibold">Address</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="address"
+                            placeholder = "e.g. 1, Jln Bunga, 50000 Kuala Lumpur.">
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="username" class="form-label fw-semibold">Username*</label>
                         <div class="input-group">
                             <input type="text" class="form-control" name="username" 
-                            placeholder = "e.g. aliahmad123" required>
+                            placeholder = "e.g. michael123" required>
                         </div>
                     </div>
 
                     <div class="mb-4">
-                        <label for="password" class="form-label fw-semibold">Password</label>
+                        <label for="password" class="form-label fw-semibold">Password*</label>
                         <div class="input-group">
                             <input type="password" class="form-control" 
                             name="password" minlength = "5" maxlength = "32" 
                             placeholder = "Minimum 5 characters" required>
                         </div>
                     </div>
+
+                    <p>* Required</p>
 
                     <div class="d-grid gap-2">
                         <button type="submit" name="registerButton" class="btn btn-success">
@@ -98,7 +108,6 @@
                         <button type="submit" onclick = "window.location.href = 'loginpage.php';" 
                         name="cancelButton">Cancel</button>
                     </div>
-
                 </form>
             </div> 
         </div>
