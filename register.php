@@ -76,7 +76,7 @@
                         <label for="address" class="form-label fw-semibold">Address</label>
                         <div class="input-group">
                             <input type="text" class="form-control" name="address"
-                            placeholder = "e.g. 1, Jln Bunga, 50000 Kuala Lumpur.">
+                            placeholder = "e.g. Kuala Lumpur">
                         </div>
                     </div>
 
@@ -84,7 +84,7 @@
                         <label for="username" class="form-label fw-semibold">Username*</label>
                         <div class="input-group">
                             <input type="text" class="form-control" name="username" 
-                            placeholder = "e.g. michael123" required>
+                            placeholder = "e.g. michaeljackson" required>
                         </div>
                     </div>
 
