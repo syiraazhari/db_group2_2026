@@ -27,6 +27,20 @@
         .btn-success:hover {
             background-color: #3098BB;
         }
+        
+        .btn-secondary {
+            background-color: #6c757d;
+            border: none;
+            padding: 10px 20px;
+            font-weight: 600;
+            border-radius: 6px;
+            color: white;
+            width: 100%;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #5a6268;
+        }
     </style>
 </head>
 <body>
@@ -49,39 +63,47 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="custName" class="form-label fw-semibold">Name</label>
+                        <label for="custName" class="form-label fw-semibold">Name*</label>
                         <div class="input-group">
                             <input type="text" class="form-control" name="custName" 
-                            placeholder = "e.g. Ali bin Ahmad" required>
+                            placeholder = "e.g. Michael Jackson" required>
                         </div>
                     </div>
 
                     <div class="mb-3">
-                        <label for="custName" class="form-label fw-semibold">Email</label>
+                        <label for="custName" class="form-label fw-semibold">Email*</label>
                         <div class="input-group">
-                            <input type="text" class="form-control" name="email" 
-                            placeholder = "e.g. aliahmad@gmail.com">
+                            <input type="email" class="form-control" name="email" 
+                            placeholder = "e.g. michael@gmail.com" required>
                         </div>
                     </div>
 
                     <div class="mb-3">
-                        <label for="contactNo" class="form-label fw-semibold">Contact No</label>
+                        <label for="contactNo" class="form-label fw-semibold">Contact No*</label>
                         <div class="input-group">
                             <input type="text" class="form-control" name="contactNo"
-                            placeholder = "e.g. 0123456789">
+                            placeholder = "e.g. 0123456789" required>
                         </div>
                     </div>
 
                     <div class="mb-3">
-                        <label for="username" class="form-label fw-semibold">Username</label>
+                        <label for="address" class="form-label fw-semibold">Address*</label>
+                        <div class="input-group">
+                            <input type = "text" class="form-control" name="address"
+                            placeholder = "Kuala Lumpur" required>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="username" class="form-label fw-semibold">Username*</label>
                         <div class="input-group">
                             <input type="text" class="form-control" name="username" 
-                            placeholder = "e.g. aliahmad123" required>
+                            placeholder = "e.g. michael" required>
                         </div>
                     </div>
 
                     <div class="mb-4">
-                        <label for="password" class="form-label fw-semibold">Password</label>
+                        <label for="password" class="form-label fw-semibold">Password*</label>
                         <div class="input-group">
                             <input type="password" class="form-control" 
                             name="password" minlength = "5" maxlength = "32" 
@@ -89,16 +111,17 @@
                         </div>
                     </div>
 
+                    <p>* Required</p>
+
                     <div class="d-grid gap-2">
                         <button type="submit" name="registerButton" class="btn btn-success">
-                        Register</button><br>
+                        Register</button>
                     </div>
 
-                    <div class="d-grid gap-2">
-                        <button type="submit" onclick = "window.location.href = 'loginpage.php';" 
-                        name="cancelButton">Cancel</button>
+                    <div class="d-grid gap-2 mt-2">
+                        <button type="button" onclick="window.location.href='loginpage.php';" 
+                        class="btn btn-secondary">Cancel</button>
                     </div>
-
                 </form>
             </div> 
         </div>
